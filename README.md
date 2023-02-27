@@ -1,2 +1,2 @@
 # Brainnest
- Python Developer Training
+ Python Developer Training Assignments and Projects
