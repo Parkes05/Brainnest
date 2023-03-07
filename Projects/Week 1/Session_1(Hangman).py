@@ -1,14 +1,13 @@
 # The hangman game is a word guessing game where the player is given a word and has to guess the letters that make up the word. 
 # The player is given a certain number of tries (no more than 6 wrong guesses are allowed) to guess the correct letters before the game is over.
 
-tries = 10
-
+tries = 6
 print('\nWelcome to the hangman game.')
 print('Here are the rules:')
 print('1. A secret word has been chosen.\n2. You have',tries,'tries to guess the word.\n3. Each incorrect guess brings you closer to being \"hanged\".')
 
 def fun(i):
-    count = int(tries)
+    count = tries
     letter = []
     word = []
     for j in list(i):
@@ -39,5 +38,5 @@ def fun(i):
         else:
             continue
 
-gameword = 'let'
+gameword = 'java'
 fun(gameword)
